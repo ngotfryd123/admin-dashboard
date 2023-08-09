@@ -6,49 +6,68 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
-<body style="background-color: lightgray;">
-    <div id="sidepane" style="
-    grid-row: 1/5;
-    grid-column: 1/2;
-"></div><div id="top"></div>
+<body style="">
+    <div id="sidepane"></div><div id="top"><div style="
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    justify-items: center;
+"><img src="/home/nick/Downloads/magnify.png" style="
+    width: 24px;
+">
+
+<form action="/action_page.php" style="
+">
+  <label for="gsearch"></label>
+  <input type="search" id="gsearch" name="gsearch" style="">
+  
+</form>
+<img src="/home/nick/Downloads/bell-ring.png" style="
+    width: 24px;
+">
+<img src="/home/nick/Downloads/account.png" style="
+    width: 24px;
+">Diddly doo</div><div></div></div>
     <div id="main" style="
     grid-column: 2/4;
     grid-row: 2/5;
     margin: 50px;
 ">
         
-        <div style="
-    grid-column: 1/2;
-" title="wow">1</div>
+        <div style="/* grid-template-columns: 7px; */"><div class="marker" style="
+"></div></div>
         <div style="
     grid-column: 2/3;
-">2</div>
+"><div class="marker"></div></div>
         
-        <div>3</div>
-        <div>4</div>
-        
-        
+        <div><div class="marker"></div></div>
+        <div><div class="marker"></div></div>
         
         
-<div>5</div><div>6</div>
+        
+        
+<div><div class="marker"></div></div><div><div class="marker"></div></div>
 
 
 
-<div style="
+<div id="side" style="
     grid-column: 3/4;
     background-color: lightgray;
     grid-row: 1/4;
     display: grid;
     gap: 50px;
+    border-left-style: none;
+    grid-template-columns: none;
 "><div style="
     background-color: brown;
-    flex: 1;
 "></div><div style="
     background-color: blueviolet;
-    flex: 1;
 "></div></div>
 
     </div>
+
 
 
 
