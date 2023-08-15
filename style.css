@@ -2,9 +2,8 @@ body{
     display: grid;
     height:100vh;
     margin:0px;
-    grid-template-columns: 1fr 4fr;
     background-color: lightgray;
-    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: repeat(4,1fr);
 }
 #sidepane{
     background-color: white;
@@ -15,7 +14,7 @@ body{
     background-color: lightgray;
     display: grid;
     gap:20px;
-    grid-column: 2/4;
+    grid-column: 2/6;
     grid-row: 2/5;
     margin: 50px;
     grid-template-columns: repeat(3,minmax(0,1fr));
@@ -23,8 +22,10 @@ body{
 #top{
     background-color: #838282;
     grid-row: 1/2;
-    grid-column: 2/4;
+    grid-column: 2/6;
     display: grid;
+    gap:20px;
+    padding-top:30px;
 }
 #main > div{
     background-color: white;
